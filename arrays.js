@@ -32,13 +32,14 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  var array = array.shift();
+  array.shift();
   return array;
 
 }
 
 function removeElementFromBeginningOfArray(array) {
-  var array = array.slice(1);
+  var new_array = array.slice(1);
+  return new_array;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
